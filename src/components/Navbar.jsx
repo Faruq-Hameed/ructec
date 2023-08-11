@@ -25,8 +25,11 @@ const Navbar = () => {
                <Link to='/courses'>
                <li className=' hover:text-blue06 md:pb-0 pb-5'>
                     <select name="" id="" className='bg-inherit pr-1'>
-                        <option value="">Courses</option>
-                       
+                        <option value="/courses">Courses</option>
+                        <option value="/backend-dev"><Link to='/backend-dev'>Backend Development</Link></option>
+                        <option value="/frontend-dev"><Link to='/frontend-dev'>Frontend Development</Link></option>
+
+
                     </select>
                 </li>
                </Link>
@@ -41,14 +44,14 @@ const Navbar = () => {
                 </li>
                </Link>
         {
-        location.pathname ==='/' ? <Link to='/signin'>
+        location.pathname ==='/' ? <Link to='/signingg'>
         <button className= '  md:hidden block bg-blue03 text-grey10 text-center border rounded-lg w-[124px] h-[40px] hover:bg-blue06 hover:text-white01'>Sign in <span><select name="" id="" className='bg-inherit  '></select></span></button>
     </Link> : ''
        }
             </ul>
         </div>
        {
-        location.pathname ==='/' ? <Link to='/signin'>
+        location.pathname ==='/' ? <Link to='/signing'>
         <button className= ' md:block hidden bg-blue03 text-grey10 text-center border rounded-lg w-[124px] h-[40px] hover:bg-blue06 hover:text-white01'>Sign in <span><select name="" id="" className='bg-inherit  '></select></span></button>
     </Link> : ''
        }
