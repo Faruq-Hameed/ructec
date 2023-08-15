@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <section className='md:px-16 px-8 pt-8 pb-24 bg-blue03 text-white01 md:flex flex md:flex-row flex-col md:justify-between items-center'>
+    <section className='md:px-20 px-8 pt-8 pb-24 bg-blue03 text-white01 md:flex flex md:flex-row flex-col md:justify-between items-center'>
         <div >
             <img src={Logo} alt="" />
         </div>

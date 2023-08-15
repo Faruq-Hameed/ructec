@@ -7,15 +7,14 @@ import Navbar from "./components/Navbar";
 import About from './Pages/About';
 import Faqs from './Pages/Faqs';
 import Courses from './Pages/Courses';
-
-
-import Backend from './components/Backend'
-import Frontend from './components/Frontend'
+import Backend from './components/Backend';
+import Frontend from './components/Frontend';
+import Enrol from './components/Enrol';
 
 function App() {
 
   return (
-    <div className="font-font bg-white02 w-full h-full">
+    <div className="font-font bg-white02 w-full h-full overflow-x-hidden">
       
       <Router>
         <Navbar/>
@@ -27,9 +26,9 @@ function App() {
           <Route path="/faqs" element={<Faqs/>}/>
           <Route path="/courses" element={<Courses/>}/>
 
-
-          <Route path= '/backend-dev' element={<Backend />} />
           <Route path= '/frontend-dev' element={<Frontend />} />
+          <Route path= '/backend-dev' element={<Backend />} />
+           <Route path='/enrol' element={<Enrol/>}/>
         </Routes>
         <Footer/>
       </Router>

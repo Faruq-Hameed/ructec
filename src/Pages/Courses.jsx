@@ -1,5 +1,5 @@
 // import React from 'react'
-
+import { Link } from 'react-router-dom'
 import Courseimg from '../assets/courses-img.svg'
 import Courseimg1 from '../assets/courses-img1.svg'
 
@@ -38,7 +38,7 @@ const Courses = () => {
 
                             </div>
 
-                            <button className='px-16 py-1 border border-gray-400 rounded-lg  mt-10 shadow-lg '>Enrol</button>
+                            <button className='px-16 py-1 border border-gray-400 rounded-lg  mt-10 shadow-lg '><Link to='/frontend-dev'>Enrol</Link></button>
                             
                          </div>
                         
@@ -64,7 +64,7 @@ const Courses = () => {
                                 <p className=''>6 Months</p>
                             </div>
 
-                            <button className='px-16 py-1 border border-gray-400 rounded-lg  mt-10 shadow-lg '>Enrol</button>
+                            <button className='px-16 py-1 border border-gray-400 rounded-lg  mt-10 shadow-lg '><Link to='/backend-dev'>Enrol</Link></button>
                             
                          </div>
                         
