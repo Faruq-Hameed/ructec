@@ -9,7 +9,7 @@ const Testmony = () => {
     <section className=''>
         <div>
             <h2 className="bg-white01 text-blue05 text-[40px] font-normal text-center py-3">What People say about Ruqtec</h2>
-            <div className="bg-white02 pt-20 pb-6 md:px-16 px-8 md:flex  flex md:flex-row flex-col items-center justify-between  ">
+            <div className="bg-white02 pt-20 pb-6 md:px-20 px-8 md:flex  flex md:flex-row flex-col items-center justify-between  ">
                 <div className='relative md:mb-0 mb-14'>
                     <img src={ImageT1} alt="" className='absolute -top-10 left-20 w-[100px] h-[100px]' />
                    <div className='bg-white01 border rounded-lg w-[270px] h-[400px] text-center p-4'>

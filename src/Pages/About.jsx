@@ -10,7 +10,7 @@ const About = () => {
     <div className=' hidden sm:flex sm:-mt-4 h-150vh w-full bg-[#f5f5f5] mb-20 justify-center'>
       <div className='max-screen-lg mx-auto sm:flex flex-col justify-center w-auto  p-40 '>
 
-        <div className= ' py-6  pl-16 bg-white'>
+        <div className= ' py-6  pl-20 bg-white'>
           <h2 className= ' text-[#056594] text-5xl font-bold'>About Ruqteq</h2>
         </div>
         <div className= ' mt-10 mb-28 text-[#067EB9]'>

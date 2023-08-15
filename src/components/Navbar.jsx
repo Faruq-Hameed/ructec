@@ -7,7 +7,7 @@ const Navbar = () => {
  const location = useLocation()
 
   return (
-    <section className='h-[88px] flex justify-between bg-white01 md:px-16 px-8  py-6'>
+    <section className='h-[88px] flex justify-between bg-white01 md:px-20 px-8  py-6'>
         <div className='flex justify-between items-center'>
             <img src={Logo} alt="" className=' w-[150px] h-[48px] object-cover' />
             <div  onClick={() => setOpen(!open)}className='text-blue03 text-4xl cursor-pointer md:hidden absolute right-8 top-6 text-center'>
@@ -24,10 +24,10 @@ const Navbar = () => {
             </Link>
                <Link to='/courses'>
                <li className=' hover:text-blue06 md:pb-0 pb-5'>
-                    <select name="" id="" className='bg-inherit pr-1'>
+                    <select name="" id="" className='bg-inherit pr-1 outline-none'>
                         <option value="/courses">Courses</option>
-                        <option value="/backend-dev"><Link to='/backend-dev'>Backend Development</Link></option>
-                        <option value="/frontend-dev"><Link to='/frontend-dev'>Frontend Development</Link></option>
+                        <option value="/backend-dev"><Link to='/backend-dev'>Backend</Link></option>
+                        <option value="/frontend-dev"><Link to='/frontend-dev'>Frontend</Link></option>
 
 
                     </select>
